@@ -3,3 +3,74 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --yellow: hsl(47, 88%, 63%);
+    --white: hsl(0, 0%, 100%);
+    --gray-500: hsl(0, 0%, 42%);
+    --gray-950: hsl(0, 0%, 7%);
+}
+
+body {
+    background-color: var(--yellow);
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+}
+
+.card {
+    max-width: 389px;
+    height: 527px;
+    margin: 163px auto;
+    border-radius: 15px;
+    background-color: var(--white);
+    padding: 24px;
+    border: 1px solid var(--gray-950);
+    box-shadow: 10px 10px;
+}
+
+.card__content {
+    margin-top: 24px;
+}
+
+.card__content-badge {
+    padding: 8px 7px;
+    background-color: var(--yellow);
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.card__content-date {
+    margin: 16px 0 25px 0;
+    font-size: 13px;
+}
+
+.card__content-img {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.card__content-title {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.card__content-title:hover {
+    color: var(--yellow);
+    cursor: pointer;
+}
+
+.card__content-text {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.card__content-img img {
+    width: 30px;
+}
+
+.card__content-img figcaption {
+    font-weight: bold;
+}
