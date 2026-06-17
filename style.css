@@ -21,7 +21,7 @@ body {
 .card {
     max-width: 389px;
     height: 527px;
-    margin: 163px auto;
+    margin: 200px auto;
     border-radius: 15px;
     background-color: var(--white);
     padding: 24px;
@@ -65,6 +65,7 @@ body {
 .card__content-text {
     margin-bottom: 15px;
     line-height: 1.6;
+    color: var(--gray-500);
 }
 
 .card__content-img img {
